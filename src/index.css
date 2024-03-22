@@ -1,0 +1,129 @@
+ul.horizontal-list {
+  list-style-type: none;
+}
+
+ul.horizontal-list li {
+  display: inline;
+  margin-right: 10px; 
+}
+
+.card{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10 px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+header{
+  text-align: left;
+}
+
+body{
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3a390145-1e80-4c9f-bea4-6f11959496cd/del304o-a42b2fab-d054-4ae3-be0b-dcb50b429172.jpg/v1/fill/w_1280,h_720,q_75,strp/pokeball_wallpaper_by_blackholekun_del304o-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvM2EzOTAxNDUtMWU4MC00YzlmLWJlYTQtNmYxMTk1OTQ5NmNkXC9kZWwzMDRvLWE0MmIyZmFiLWQwNTQtNGFlMy1iZTBiLWRjYjUwYjQyOTE3Mi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.uUBZCvo3rUs5zwjD83BHcfVX8H_E70EkJqrgIRqBCaw);
+  background-size: auto;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Tahoma;
+  margin: 0;
+  padding: 0;
+}
+
+.card .card-image{
+  max-width: auto;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0%;
+  color: bisque;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color:#01ecfd;
+    outline-style: auto;
+    outline-color: rgb(255, 255, 255);
+    border-radius: 0px;
+  }
+}
+
+.pokemon .type{
+  background-color: #09f5d5;
+  outline-style: auto;
+  outline-color: rgb(0, 0, 0);
+  border-radius: 20px;
+  border: 2px;
+  padding: 5px;
+  color: black;
+}
+.type-container {
+  display: flex;
+  justify-content: center;
+}
+
+.type {
+  margin-right: 10px; 
+  text-align: center;
+}
+.pokemon {
+  background-color: antiquewhite;
+  border: 1px solid hsl(93, 100%, 51%);
+  border-radius: 0px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  width: 250px;
+  display: inline-block;
+  outline-style: auto;
+  outline-color: rgb(189, 189, 189);
+  margin-right: 51px;
+  
+}
+ .pokemon .image {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 0%;
+  margin-bottom: 10px;
+  outline-style: auto;
+  outline-color: rgb(253, 47, 11);
+ }
+ .stat-groups {
+  display: flex;
+}
+
+.stat-group {
+  display: flex;
+  flex-direction: column; 
+  margin-right: 20px; 
+  margin-left: 25px;
+  text-align: justify;
+}
+
+.stat {
+  margin-bottom: 0px; 
+}
+.filters {
+  display: flex;
+  justify-content: flex-start; 
+  margin-bottom: 10px; 
+}
+
+.filters button {
+  margin-right: 0px; 
+  margin-left: 20px;
+}
